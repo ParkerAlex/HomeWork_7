@@ -11,13 +11,10 @@ public enum ShapeBody {
 	
 	ShapeBody(String code) {
 		 this.code = code;
-	}
+	}	 
 	
-	 
-	 
-	    public String getCode(){ return code;}
-
-
-	 
-
+	    public String getCode(){
+	    	return code;
+		}
+ 
 }

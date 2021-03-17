@@ -13,7 +13,7 @@ public class FactoryHead implements Head{
 			return head[e] =ShapeHead.SQUARE.getCode();
 		}else if (e == 2) {
 			return head[e] =ShapeHead.CYLINDR.getCode();
-		}else
+		}
 		return e;
 	}
 

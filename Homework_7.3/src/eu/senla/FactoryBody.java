@@ -11,7 +11,7 @@ public class FactoryBody implements Body {
 			return body[e] = ShapeBody.WOODEN.getCode();	
 		}else if (e == 2) {
 			return body[e] = ShapeBody.PLASTIC.getCode();	
-		}else
+		}
 		return e;
 	}
 

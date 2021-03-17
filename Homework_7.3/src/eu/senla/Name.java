@@ -1,15 +1,7 @@
 package eu.senla;
 
-public enum Name {
-
-	SASHA,
-	DASHA,
-	MASHA,
-	MAKS,
-	VOVA,
-	LENA,
-	BARS,
-	JECK,
-	LORA
+public interface Name {
 	
+		Object AddShapeName(int e);
+
 }
