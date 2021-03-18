@@ -20,9 +20,4 @@ public class Robot extends FactoryHead{
 		return "Robot: Имя " + name + ", Голова " + head + ", Туловище " + body;
 	}
 
-
-	
-
-	
-
 }
